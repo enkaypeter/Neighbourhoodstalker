@@ -1,0 +1,82 @@
+body{
+    /*padding-bottom: 100px;*/
+    padding-top: 70px;
+
+}
+p{
+    font-family: 'Open Sans', sans-serif;
+}
+h1, h2, h3, h4, h5, h6{
+    font-family: 'Oswald', sans-serif;
+}
+.thumbnail img:hover{
+     transform: scale(1.1);
+}
+.thumbnail img{
+    transition: all 0.3s ease 0s;
+    width: 100%;
+}
+.thumbnail{
+    overflow: hidden;
+}
+.navbar-text > a{
+    text-decoration: none;
+    color: inherit;
+}
+.navbar-default{
+/*    navyblue*/
+    background-color: #2C3E50;
+    border-color: #fff;
+    color: #fff;
+}
+.navbar-default .navbar-brand{
+    color: #fff;
+}
+.navbar-default .navbar-brand:hover,
+.navbar-default .navbar-brand:focus {
+/*    Turquiose*/
+    color: #18BC9C; 
+    background-color:transparent;
+}
+.navbar-default .navbar-nav > li > a{
+    color: #fff;
+}
+.navbar-default .navbar-nav > .active > a,
+.navbar-default .navbar-nav > .active > a:hover,
+.navbar-default .navbar-nav > .active > a:focus{
+    color: #fff;
+/*    NavyBlue Active*/
+    background-color: #1A242F;
+}
+.navbar-default .navbar-nav > li > a:hover,
+.navbar-default .navbar-nav > li > a:focus{
+    /*    Turquiose*/
+    color: #18BC9C;
+    background-color: transparent;
+}
+
+.jumbotron{
+    background-attachment: fixed;
+/*    background-image: url(/img/carwash.jpg);*/
+    color: white;
+}
+.mDown{
+    padding-top: 35px;
+}
+footer {
+  padding: 20px;
+}
+footer{
+  font-size: 14px;
+  text-align: center;
+  margin-bottom: 0;
+}
+.fa-stack{
+    color: #2C3E50;
+}
+.fa-stack > i:hover {
+    color: #18BC9C;
+}
+.fDown{
+    margin-top:10px;
+}

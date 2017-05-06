@@ -1,0 +1,81 @@
+body{
+    /*padding-bottom: 100px;*/
+    padding-top: 70px;
+
+}
+p{
+    font-family: 'Open Sans', sans-serif;
+}
+h1, h2, h3, h4, h5, h6{
+    font-family: 'Oswald', sans-serif;
+}
+.thumbnail img:hover{
+     transform: scale(1.1);
+}
+.thumbnail img{
+    transition: all 0.3s ease 0s;
+    width: 100%;
+}
+.thumbnail{
+    overflow: hidden;
+}
+.jumbotron{
+    background-image:url(/img/play-stone-1237458_960_720.jpg);
+    color: white;
+    background-attachment: fixed;
+}
+.navbar-text > a{
+    text-decoration: none;
+    color: inherit;
+}
+.navbar-default{
+    background-color: #030;
+    border-color: #fff;
+    color: #fff;
+}
+.navbar-default .navbar-brand{
+    color: #999;
+}
+.navbar-default .navbar-nav > .active > a,
+.navbar-default .navbar-nav > .active > a:hover,
+.navbar-default .navbar-nav > .active > a:focus{
+    color: #fff;
+    background-color: #003;
+}
+.navbar-default .navbar-brand:hover,
+.navbar-default .navbar-brand:focus {
+    color: #F90;
+    background-color:transparent;
+}
+.navbar-default .navbar-nav > li > a{
+    color: #999;
+}
+.navbar-default .navbar-nav > li > a:hover,
+.navbar-default .navbar-nav > li > a:focus{
+    color: #F90;
+    background-color: transparent;
+}
+.rowSpace{
+    margin-bottom: 20px;
+}
+.mDown{
+    padding-top: 35px;
+}
+.fa-stack{
+    color: #060;
+}
+.fa-stack > i:hover {
+    color: #0C3;
+}
+footer {
+  padding: 20px;
+}
+footer{
+  font-size: 14px;
+  text-align: center;
+  margin-bottom: 0;
+}
+.fDown{
+    margin-top:10px;
+}
+
